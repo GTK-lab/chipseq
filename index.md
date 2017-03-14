@@ -2,26 +2,9 @@
 layout: lesson
 root: .
 ---
-
-The Unix shell has been around longer than most of its users have been alive.
-It has survived so long because it's a power tool
-that allows people to do complex things with just a few keystrokes.
-More importantly,
-it helps them combine existing programs in new ways
-and automate repetitive tasks
-so they aren't typing the same things over and over again.
-Use of the shell is fundamental to using a wide range of other powerful tools 
-and computing resources (including "high-performance computing" supercomputers).
-These lessons will start you on a path towards using these resources effectively.
+Chromatin immunoprecipitation coupled with massively parallel sequencing (ChIP-seq) is becoming increasingly popular as a method to obtain a high-resolution map of transcription factor binding sites across the genome, as well as histone modifications. In today's class, we will discuss ChIP-seq analysis of a transcription factor, although the principles are largely the same when analyzing histone modifications. 
 
 > ## Prerequisites
 >
-> This lesson guides you through the basics of file systems and the
-> shell.  If you have stored files on a computer at all and recognize
-> the word “file” and either “directory” or “folder” (two common words
-> for the same thing), you're ready for this lesson.
->
-> If you're already comfortable manipulating files and directories,
-> searching for files with `grep` and `find`, and writing simple loops
-> and scripts, you probably won't learn much from this lesson.
+> It is assumed that you are comfortable working in the command line environment. An understanding of chromatin immunoprecipitation is also useful in understanding how peak calling works. Finally, it is assumed that everyone is able to perform sequence alignment using *bowtie2*. For that reason, we will not be going through the alignment and instead be providing everyone with the aligned reads as the starting point for today's practical. 
 {: .prereq}
