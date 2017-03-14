@@ -31,10 +31,7 @@ usage: macs2 [-h] [--version]                                                   
 In ChIP-seq, the reads sequenced usually represents the ends of the DNA fragment and not the exact binding location. One common strategy that is used to recover the actual binding site is to extend the reads to include the actual binding site. However, one needs to determine how long should the reads be extended to. There are two ways of doing this, namely:
 
 1.Make assumptions about the length. For instance, one commonly used value for transcription factor binding site is 200bp. 
-
 2.Use the strand cross-correlation to estimate a fragment length. This can be done using `macs2 predictd`. 
-
-For today's purpose, we will use the latter to estimate the size of our DNA fragment. 
 
 # Peak calling with MACS2
 Peak calling in MACS2 is done using `macs2 callpeak`. There are a large number of different options that we can provide. 
