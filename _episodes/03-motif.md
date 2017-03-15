@@ -62,7 +62,7 @@ At the end of the installation, configureHomer.pl will ask you to add a line to 
 > ~~~
 > PATH=$PATH:/path/to/HOMER/.//bin/
 > ~~~
-{: .bash}
+{: .source}
 
 > ### try it 
 >
@@ -73,15 +73,15 @@ At the end of the installation, configureHomer.pl will ask you to add a line to 
 > ~~~
 > export PATH=$PATH:/path/to/HOMER/.//bin/
 > ~~~
->{:.bash}
+>{: .source}
 >
 > save your file
 >
 > ~~~
 > source .bashrc
 > ~~~
-> {:. bash}
-{:.challenge}
+> {: .source}
+{: .challenge}
 
 
 
