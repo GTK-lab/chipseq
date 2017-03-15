@@ -30,12 +30,6 @@ There are many many motif discovery tools out there. All utilising different alg
 Taken from 
 [Andrei Lihu, Stefan Holban; A review of ensemble methods for de novo motif discovery in ChIP-Seq data . Brief Bioinform 2016; 17 (4): 731. doi: 10.1093/bib/bbw047](https://academic.oup.com/bib/article/17/4/731/1742437/A-review-of-ensemble-methods-for-de-novo-motif)
 
-> ### File preperation for motif discovery
->
-> File preperation depends on the tools that we will use to discover the motifs. Depending on the tool in question fragment sizes between 50-500 bp around the summit of the peak is best for motif discovery. Some tools will only take FASTA sequences of the peak regions where others will be able to take genomic coordinates. Today we will look at both.
->
-{: .callout}
-
 ## HOMER
 
 First things first, let's create a folder for HOMER to live in.
@@ -65,7 +59,7 @@ At the end of the installation, configureHomer.pl will ask you to add a line to 
 > ~~~
 {: .source}
 
-> ### try it 
+> ## Let's do this! 
 >
 > open your .bashrc or .bash_profile file using your favourite text editor
 >
@@ -84,20 +78,14 @@ At the end of the installation, configureHomer.pl will ask you to add a line to 
 > {: .source}
 {: .challenge}
 
-
-
 After we've installed HOMER we can run the findMotifsGenome.pl
 
 > ~~~
-> findMotifsGenome.pl NAME_peaks.bed hg19 MotifOutput/ -size 200 -mask
+> findMotifsGenome.pl NAME_peaks.bed /path/to/hg19.fa MotifOutput/ -size 200 -mask
 > ~~~
 {: .bash}
 
-
-
-
-
-findMotifsGenome.pl
+And now we can look at the outputs produced by findMotifsGenome.pl by looking in our MotifOutput/ directory.
 
 ## MEME-Chip
 
