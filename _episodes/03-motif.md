@@ -33,6 +33,7 @@ Taken from
 > ### File preperation for motif discovery
 >
 > File preperation depends on the tools that we will use to discover the motifs. Depending on the tool in question fragment sizes between 50-500 bp around the summit of the peak is best for motif discovery. Some tools will only take FASTA sequences of the peak regions where others will be able to take genomic coordinates. Today we will look at both.
+>
 {: .callout}
 
 ## HOMER
