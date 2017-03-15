@@ -75,3 +75,5 @@ usage: macs2 callpeak [-h] -t TFILE [TFILE ...] [-c [CFILE [CFILE ...]]]
 {: .output}
 
 For `callpeak`, the main arguments that we will provide are `-t`, `-c`, `--extsize` (which we get from `predictd`) and `-g` if we are not using the human genome. We will also specify `--nomodel` since we are specifying the fragment size. 
+
+ Refer to the website [[https://github.com/taoliu/MACS#call-peaks]] for more information on the other arguments (such as `-m` and `-q` that can be changed depending on analysis needs). 
