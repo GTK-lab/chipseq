@@ -1,0 +1,42 @@
+---
+title: "Motif enrichment/discovery"
+teaching: 15
+exercises: 15
+questions:
+- "What is motif enrichment/discovery?"
+- "How is motif enrichment/discovery done?"
+- "Why is motif enrichment/discovery useful?"
+- "What are the limitations?"
+objectives:
+- "Appreciate the utility of motif enrichment/discovery from Chip-Seq data"
+- "Complete a motif analysis using the Chip-seq data provided"
+- "Comment on the results obtained from the motif analysis"
+keypoints:
+---
+
+## What is motif discovery?
+
+> "Motif analysis is useful for much more than just identifying the causal DNA-binding motif in TF ChIP-seq peaks. When the motif of the ChIPed protein is already known, motif analysis provides validation of the success of the experiment. Even when the motif is not known beforehand, identifying a centrally located motif in a large fraction of the peaks by motif analysis is indicative of a successful experiment. Motif analysis can also identify the DNA-binding motifs of other proteins that bind in complex or in conjunction with the ChIPed protein, illuminating the mechanisms of transcriptional regulation. Motif analysis is also useful with histone modification ChIP-seq because it can discover unanticipated sequence signals associated with such marks."
+> Excerpt from Bailey T, Krajewski P, Ladunga I, Lefebvre C, Li Q, Liu T, et al. (2013) **Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data.** PLoS Comput Biol 9(11): e1003326. doi:10.1371/journal.pcbi.1003326
+
+
+## Ensemble methods for motif discovery
+
+There are many many motif discovery tools out there. All utilising different algorithms and will have varying outputs. It is best to use a number of tools together and to find the top hits that can be found from those methods. 
+
+![Ensemble methods for motif analysis](../fig/ensemble_methods_chip_seq.png)
+
+Taken from [Andrei Lihu, Stefan Holban; A review of ensemble methods for de novo motif discovery in ChIP-Seq data . Brief Bioinform 2016; 17 (4): 731. doi: 10.1093/bib/bbw047](https://academic.oup.com/bib/article/17/4/731/1742437/A-review-of-ensemble-methods-for-de-novo-motif)
+
+> ## File preperation for motif discovery
+>
+> File preperation depends on the tools that we will use to discover the motifs. Depending on the tool in question fragment sizes between 50-500 bp around the summit of the peak is best for motif discovery. Some tools will only take FASTA sequences of the peak regions where others will be able to take genomic coordinates. Today we will look at both
+
+## HOMER command line based 
+
+## MEME-Chip - web based
+
+## Comparison of results and top result selection: STAMP
+
+## Some limitations of motif analysis
+
