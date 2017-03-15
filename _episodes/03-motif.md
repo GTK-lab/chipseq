@@ -1,18 +1,17 @@
 ---
-title: "Motif enrichment"
+title: "Motif enrichment/discovery"
 teaching: 15
 exercises: 15
 questions:
 - "What is motif enrichment/discovery?"
 - "How is motif enrichment/discovery done?"
 - "Why is motif enrichment/discovery useful?"
-- "What are the limitations?
+- "What are the limitations?"
 objectives:
 - "Appreciate the utility of motif enrichment/discovery from Chip-Seq data"
 - "Complete a motif analysis using the Chip-seq data provided"
 - "Comment on the results obtained from the motif analysis"
 keypoints:
-
 ---
 
 ## What is motif discovery?
