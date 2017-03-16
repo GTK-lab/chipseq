@@ -85,6 +85,7 @@ And now we can look at the outputs produced by findMotifsGenome.pl by looking in
 The list of discovered motifs will be contained in the file homerMotifs.all.motifs.
 
 > ### Let's see what's inside 
+>
 > ~~~
 > >WWTTCCCGCC	1-WWTTCCCGCC	5.364976	-1727.061690	0	T:11926.0(46.44%),B:7159.6(29.07%),P:1e-750	Tpos:99.7,Tstd:51.6,Bpos:97.4,Bstd:64.0,StrandBias:0.0,Multiplicity:1.36
 > 0.408	0.140	0.152	0.300
@@ -97,7 +98,8 @@ The list of discovered motifs will be contained in the file homerMotifs.all.moti
 > 0.046	0.042	0.715	0.197
 > 0.015	0.800	0.173	0.012
 > ~~~
->{: .source}
+> {: .source}
+> 
 {: .solution}
 
 # Ensemble methods for motif discovery
