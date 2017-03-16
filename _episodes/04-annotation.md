@@ -26,11 +26,11 @@ You can follow the steps to retrieve your data:
 
 3. Select suitable filter to your table --- Select by region, identifiers and filters.
 
-  If you have your gene list of interest, you can specify them in the identifiers. You can create your own filter to filter the output of your results.
+    - If you have your gene list of interest, you can specify them in the identifiers. You can create your own filter to filter the output of your results.
 
 4. Select advance setting --- Select by intersection and correlation
 
-  Intersection to see intersect of two tables; correlation to see similarity of two tables.
+    - Intersection to see intersect of two tables; correlation to see similarity of two tables.
 
 5. Select output --- Select by output format, output file and file type returned
 
