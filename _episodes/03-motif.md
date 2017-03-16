@@ -51,6 +51,7 @@ At the end of the installation, configureHomer.pl will ask you to add a line to 
 > ~~~
 {: .source}
 
+
 > ## Let's do this! 
 >
 > open your .bashrc or .bash_profile file using your favourite text editor
@@ -84,7 +85,7 @@ And now we can look at the outputs produced by findMotifsGenome.pl by looking in
 
 The list of discovered motifs will be contained in the file homerMotifs.all.motifs.
 
-> ### Let's see what's inside 
+> ## Let's see what's inside 
 >
 > ~~~
 > >WWTTCCCGCC	1-WWTTCCCGCC	5.364976	-1727.061690	0	T:11926.0(46.44%),B:7159.6(29.07%),P:1e-750	Tpos:99.7,Tstd:51.6,Bpos:97.4,Bstd:64.0,StrandBias:0.0,Multiplicity:1.36
@@ -114,26 +115,29 @@ Taken from
 
 A way to find common motifs discovered by your different tools would be to use [STAMP](http://www.benoslab.pitt.edu/stamp/). 
 
-> ### Here is one I prepared earlier
+> ## Here is one I prepared earlier
 >
 > [MEME-Chip output](../files/combined.meme)
 {: .challenge}
+
 
 ![STAMP inputs](../fig/stamp_input.png)
 
 
 ![STAMP submit](../fig/stamp_submit.png)
 
-> ### Take note
+
+> ## Take note
 >
 > Unless you really know what your looking for keep the options to default!
 {: .callout}
 
+
 ![STAMP check](../fig/stamp_check.png)
 
-Click the "Check Results" button and it will bring you to a results page. You can then save the html page and download the PDF. 
 
-Let's look at the output.
+Click the "Check Results" button and it will bring you to a results page. You can then save the html page and download the PDF. Let's look at the output.
+
 
 #### Multiple alignment:
 ![STAMP result 1](../fig/stamp_result1.png)
@@ -145,6 +149,7 @@ Let's look at the output.
 
 #### Details of similar motifs from the two datasets:
 ![STAMP result 3](../fig/stamp_result3.png) 
+
 
 # If your interested to know more about motif discovery
 
