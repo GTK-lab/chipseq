@@ -30,12 +30,12 @@ You can follow the steps to retrieve your data:
 
 4. Select advance setting --- Select by intersection and correlation
 
- Intersection to see intersect of two tables; correlation to see similarity of two tables.
+  Intersection to see intersect of two tables; correlation to see similarity of two tables.
 
 5. Select output --- Select by output format, output file and file type returned
 
   You can choose to output all or selected field from the table and also the output format. Also, renaming and gzip compressing are supported by table browser.
-
+  
 > ## Remember
 > Please remember to click table schema to see whether the table you select contains the information that you want. Different tables from different resources may have different formats of data.
 >
