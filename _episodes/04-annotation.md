@@ -23,23 +23,22 @@ You can follow the steps to retrieve your data:
 1. Select your genome assembly --- Select by clade, genome and assembly
 
 2. Select your interested dataset --- Select by Group, track and table
-
-3. Select suitable filter to your table --- Select by region, identifiers and filters.
-
-If you have your gene list of interest, you can specify them in the identifiers. You can create your own filter to filter the output of your results.
-
-4. Select advance setting --- Select by intersection and correlation
-
-Intersection to see intersect of two tables; correlation to see similarity of two tables.
-
-5. Select output --- Select by output format, output file and file type returned
-
-You can choose to output all or selected field from the table and also the output format. Also, renaming and gzip compressing are supported by table browser.
-
 > ## Remember
 > Please remember to click table schema to see whether the table you select contains the information that you want. Different tables from different resources may have different format of information.
 >
 {: .callout}
+
+3. Select suitable filter to your table --- Select by region, identifiers and filters.
+
+  If you have your gene list of interest, you can specify them in the identifiers. You can create your own filter to filter the output of your results.
+
+4. Select advance setting --- Select by intersection and correlation
+
+ Intersection to see intersect of two tables; correlation to see similarity of two tables.
+
+5. Select output --- Select by output format, output file and file type returned
+
+You can choose to output all or selected field from the table and also the output format. Also, renaming and gzip compressing are supported by table browser.
 
 If you should have any questions on using the Table Browser, you can refer to the [User's Guide](https://genome.ucsc.edu/goldenPath/help/hgTablesHelp.html)
 
@@ -388,9 +387,9 @@ Whereas the -d option always reports distances as positive integers, the -D opti
 >
 > > ## Hint
 > >
-> > 1. bedtools intersect -loj -a <Peak_file> -b refGene.bed > <Output>
+> > 1. bedtools intersect -loj -a Peak_file -b refGene.bed > Output
 > >
-> > 2. bedtools closest -io -d -a <Peak_file> -b refGene.bed > <Output>
+> > 2. bedtools closest -io -d -a Peak_file -b refGene.bed > Output
 > >
 > {: .solution}
 {: .challenge}
