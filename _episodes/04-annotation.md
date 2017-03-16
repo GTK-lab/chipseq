@@ -90,6 +90,8 @@ Collectively, the **bedtools** utilities are a swiss-army knife of tools for a w
 
 Throughout this tutorial, we will discuss how to use bedtools to manipulate, compare and ask questions of genome **“features”**. Genome features can be functional elements (e.g., genes), genetic polymorphisms (e.g. SNPs, INDELs, or structural variants), or other annotations that have been discovered or curated by genome sequencing groups or genome browser groups.
 
+You can install bedtools through command line:
+
 ~~~
 sudo apt-get install bedtools
 ~~~
