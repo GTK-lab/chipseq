@@ -1,7 +1,7 @@
 ---
 title: "Motif enrichment/discovery"
 teaching: 15
-exercises: 30
+exercises: 15
 questions:
 - "What is motif enrichment/discovery?"
 - "How is motif enrichment/discovery done?"
