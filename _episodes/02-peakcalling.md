@@ -74,6 +74,13 @@ usage: macs2 callpeak [-h] -t TFILE [TFILE ...] [-c [CFILE [CFILE ...]]]
 ~~~
 {: .output}
 
-For `callpeak`, the main arguments that we will provide are `-t`, `-c`, `--extsize` (which we get from `predictd`) and `-g` if we are not using the human genome. We will also specify `--nomodel` since we are specifying the fragment size. 
+For `callpeak`, the main arguments that we will provide are `-t`, `-c`, `--extsize` (which we get from `predictd`), `-n` and `-g` if we are not using the human genome. We will also specify `--nomodel` since we are specifying the fragment size. The additional option `--outdir` can be specified if we want the results of our analysis to be saved in another directory.
 
  Refer to the website [[https://github.com/taoliu/MACS#call-peaks]] for more information on the other arguments (such as `-m` and `-q` that can be changed depending on analysis needs). 
+
+> ## Let's do this! 
+>
+> Perform peak calling using MACS2 to identify E2F1 binding loci across the genome, by first using `predictd` to estimate the fragment size and thereafter, specifying it as the desired extension size in the MACS2 peak calling option. 
+{: .challenge}
+
+Once MACS2 is done, we will get a few files containing the genomic coordinates of the binding sites. Other than the `xlsx` file which is tabular, all the other files are based on the BED format with additional columns for other information. Of interest is the `peaks-narrowPeak` file, contains information on all the peaks found. In the next section of this session, we will annotate the files and thereafter, perform some simple downstream analysis. 
