@@ -98,8 +98,7 @@ The list of discovered motifs will be contained in the file homerMotifs.all.moti
 > 0.046	0.042	0.715	0.197
 > 0.015	0.800	0.173	0.012
 > ~~~
-> {: .source}
-> 
+> {: .source} 
 {: .solution}
 
 # Ensemble methods for motif discovery
@@ -118,17 +117,16 @@ A way to find common motifs discovered by your different tools would be to use [
 > ### Here is one I prepared earlier
 >
 > [MEME-Chip output](../files/combined.meme)
->
 {: .challenge}
 
 ![STAMP inputs](../fig/stamp_input.png)
+
 
 ![STAMP submit](../fig/stamp_submit.png)
 
 > ### Take note
 >
 > Unless you really know what your looking for keep the options to default!
->
 {: .callout}
 
 ![STAMP check](../fig/stamp_check.png)
@@ -137,10 +135,15 @@ Click the "Check Results" button and it will bring you to a results page. You ca
 
 Let's look at the output.
 
+#### Multiple alignment:
 ![STAMP result 1](../fig/stamp_result1.png)
 
+
+#### Tree diagram:
 ![STAMP result 2](../fig/stamp_result2.png)
 
+
+#### Details of similar motifs from the two datasets:
 ![STAMP result 3](../fig/stamp_result3.png) 
 
 # If your interested to know more about motif discovery
