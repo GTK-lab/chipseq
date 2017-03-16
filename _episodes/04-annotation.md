@@ -24,11 +24,6 @@ You can follow the steps to retrieve your data:
 
 2. Select your interested dataset --- Select by Group, track and table
 
-> ## Remember
-> Please remember to click table schema to see whether the table you select contains the information that you want. Different tables from different resources may have different format of information.
->
-{: .callout}
-
 3. Select suitable filter to your table --- Select by region, identifiers and filters.
 
 If you have your gene list of interest, you can specify them in the identifiers. You can create your own filter to filter the output of your results.
@@ -40,6 +35,11 @@ Intersection to see intersect of two tables; correlation to see similarity of tw
 5. Select output --- Select by output format, output file and file type returned
 
 You can choose to output all or selected field from the table and also the output format. Also, renaming and gzip compressing are supported by table browser.
+
+> ## Remember
+> Please remember to click table schema to see whether the table you select contains the information that you want. Different tables from different resources may have different format of information.
+>
+{: .callout}
 
 If you should have any questions on using the Table Browser, you can refer to the [User's Guide](https://genome.ucsc.edu/goldenPath/help/hgTablesHelp.html)
 
@@ -385,6 +385,7 @@ Whereas the -d option always reports distances as positive integers, the -D opti
 > 1. Take your peak file, try to find out those genes that overlap with these peaks. For those without overlap, also report them in the output file. That is, you should have a output with same line number as the input.( bedtools intersect)
 >
 > 2. For those peaks that not overlap with any genes, try to find out the closest gene to it and the distance between them. (bedtools closest)
+>
 > > ## Hint
 > >
 > > 1. bedtools intersect -loj -a <Peak_file> -b refGene.bed > <Output>
