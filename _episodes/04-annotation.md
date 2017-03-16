@@ -22,7 +22,7 @@ You can follow the steps to retrieve your data:
 
 1. Select your genome assembly --- Select by clade, genome and assembly
 
-2. Select your interested dataset --- Select by Group, track and table
+2. Select your dataset of interest--- Select by Group, track and table
 
 3. Select suitable filter to your table --- Select by region, identifiers and filters.
 
@@ -35,7 +35,8 @@ You can follow the steps to retrieve your data:
 5. Select output --- Select by output format, output file and file type returned
 
   You can choose to output all or selected field from the table and also the output format. Also, renaming and gzip compressing are supported by table browser.
-  
+
+
 > ## Remember
 > Please remember to click table schema to see whether the table you select contains the information that you want. Different tables from different resources may have different formats of data.
 >
@@ -48,11 +49,11 @@ If you should have any questions on using the Table Browser, you can refer to th
 **BED** (Browser Extensible Data) format provides a flexible way to define the data lines that are displayed in an annotation track. BED lines have **three required fields** and nine additional optional fields. The number of fields per line must be consistent throughout any single set of data in an annotation track. The order of the optional fields is binding: lower-numbered fields must always be populated if higher-numbered fields are used.
 
 The first three required BED fields are:
-1. chrom - The name of the chromosome (e.g. chr3, chrY, chr2_random) or scaffold (e.g. scaffold10671).
+1. **chrom** - The name of the chromosome (e.g. chr3, chrY, chr2_random) or scaffold (e.g. scaffold10671).
 
-2. chromStart - The starting position of the feature in the chromosome or scaffold. The first base in a chromosome is numbered 0.
+2. **chromStart** - The starting position of the feature in the chromosome or scaffold. The first base in a chromosome is numbered 0.
 
-3. chromEnd - The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.
+3. **chromEnd** - The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.
 
 Based on the definition above, we can tell that the BED file of UCSC is a 0-based.
 
