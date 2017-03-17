@@ -266,6 +266,15 @@ By default, bedtools intersect will report an overlap between A and B so long as
 
 By default, bedtools intersect will report overlaps between features even if the features are on opposite strands. However, if strand information is present in both BED files and the “-s” option is used, overlaps will only be reported when features are on the same strand.
 
+> ## Note
+>
+> If you are trying to intersect very large files and are having trouble with excessive memory usage, please presort your data by chromosome and then by start position (e.g., `sort -k1,1 -k2,2n in.bed > in.sorted.bed` for BED files) and then use the `-sorted` option. This invokes a memory-efficient algorithm designed for large files. This algorithm has been substantially improved in recent (>=2.18.0) releases.
+>
+>
+>
+{: .callout}
+
+
 ## Bedtools closest
 
 Similar to intersect, `closest` searches for overlapping features in A and B. In the event that no feature in B overlaps the current feature in A, closest will report the nearest (that is, least genomic distance from the start or end of A) feature in B. For example, one might want to find which is the closest gene to a significant GWAS polymorphism. Note that closest will report an overlapping feature as the closest—that is, it does not restrict to closest non-overlapping feature.
