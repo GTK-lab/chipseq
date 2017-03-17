@@ -20,6 +20,15 @@ The data for today is taken from GEO (accession ID: GSE67809), which studies the
 > The software packages that are required for today includes (1) *macs2* for peak calling.
 > Installation instruction for each package will be provided prior to the commencement of analysis using said package.
 
-
-
-
+> ## Getting the files for today
+>
+> The files for todays class can be downloaded from atlas using the following commands:
+>
+> `scp <username>@atlas.cbis.nus.edu.sg:/mnt/gtklab01/LSM3241/shared/chipseq/*.bam.gz .`
+> `scp <username>@atlas.cbis.nus.edu.sg:/mnt/gtklab01/LSM3241/shared/chipseq/refGene.bed.gz .`
+>
+> The above commands will have the files downloaded to the present directory from which you run these commands (indicated by `.` in our `scp` command). Thereafter, you will need to decompress these files. This can be done using the following commands:
+>
+> `gzip -d *.bz.gz`
+> `gzip -d refGene.bed.gz`
+ 
