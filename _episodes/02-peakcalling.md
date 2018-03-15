@@ -11,6 +11,7 @@ keypoints:
 - "MACS2 is an easy to use peak caller with a range of different options that can be provided." 
 ---
 # Installing MACS2
+
 Installation of MACS2 requires that you have Python installed on your system. This is not usually an issue for any Linux and Mac machine, since these systems usually ship with Python already installed. Also, you will need *Numpy* and a *GCC* compiler installed. *Numpy* can be installed using the *pip* package manager of Python, while *GCC* comes installed with all Linux distributions (for Mac users, you will need to install X-Code). Once you have these packages installed, installing MACS2 is simply done using the following:
 
 ~~~
@@ -26,7 +27,8 @@ usage: macs2 [-h] [--version]                                                   
 {: .output}
 
 # Peak callking with MACS2
-## Predicting fragment size 
+## Predicting fragment size
+
 In ChIP-seq, the reads sequenced usually represents the ends of the DNA fragment and not the exact binding location. One common strategy that is used to recover the actual binding site is to extend the reads to include the actual binding site. However, one needs to determine how long should the reads be extended to. There are two ways of doing this, namely:
 
 1.Make assumptions about the length. For instance, one commonly used value for transcription factor binding site is 200bp. 
@@ -55,6 +57,7 @@ To use `predictd`, all we really need to provide is the *bam* file in the `-i` a
 
 
 ## Identification of binding sites
+
 Peak calling in MACS2 is done using `macs2 callpeak`. There are a large number of different options that we can provide. We can call the **help** page using `macs2 callpeaks -h`. The following will be seen:
 
 ~~~
