@@ -14,7 +14,7 @@ Chromatin immunoprecipitation (ChIP) followed by massively parallel sequencing (
 
 # Overview of today's session 
 For today's class, a set of aligned reads in the **bam** format is provided as the starting point of our practical. These reads were aligned to the reference genome using *bowtie2*, which is assumed that everyone is familiar with using. The session will be broken into 3 sections, namely: (1) peak calling, (2) annotation and (3) motif enrichment analysis. 
-The data for today is taken from GEO (accession ID: GSE67809), which studies the genome-wide binding loci of the transcription factor E2F1. Two files -- a ChIP and an input -- are provided. 
+The data for today is a subset of aligned reads taken from GEO (accession ID: GSE67809), which studies the genome-wide binding loci of the transcription factor E2F1. Two files -- a ChIP and an input -- are provided. 
 > ## Software packages required
 >
 > The software packages that are required for today includes (1) *macs2* for peak calling.
@@ -24,11 +24,11 @@ The data for today is taken from GEO (accession ID: GSE67809), which studies the
 >
 > The files for todays class can be downloaded from atlas using the following commands:
 >
-> `scp <username>@atlas.cbis.nus.edu.sg:/mnt/gtklab01/LSM3241/shared/chipseq/*.bam.gz .`
-> `scp <username>@atlas.cbis.nus.edu.sg:/mnt/gtklab01/LSM3241/shared/chipseq/refGene.bed.gz .`
+> `scp guests@atlas.cbis.nus.edu.sg:/home/guests/chipseq/*-sub.bam.gz .`
+> `scp guests@atlas.cbis.nus.edu.sg:/home/guests/refGene.bed.gz .`
 >
 > The above commands will have the files downloaded to the present directory from which you run these commands (indicated by `.` in our `scp` command). Thereafter, you will need to decompress these files. This can be done using the following commands:
 >
-> `gzip -d *.bz.gz`
+> `gzip -d *.gz`
 > `gzip -d refGene.bed.gz`
  

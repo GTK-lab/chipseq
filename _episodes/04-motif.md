@@ -159,4 +159,4 @@ Click the "Check Results" button and it will bring you to a results page. You ca
 
 [Limitations of De novo motif discovery](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047836)
 
-And if you are interested in how I got the output file from MEME-chip you are welcome to stay after class and I can show you!
+
